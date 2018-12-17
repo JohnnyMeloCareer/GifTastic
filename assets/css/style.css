@@ -1,0 +1,97 @@
+body {
+    background: url("../images/com.janellechan.christmasbackgroundwallpaper_2.png"); 
+    background-repeat: no-repeat ;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #1e7e34;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .gif {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    border: 4px rgb(29, 41, 81) solid;
+    background-color: rgb(41, 171, 135);
+    color: white;
+}
+
+form {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.searchRef {
+    color: white;
+}
+
+.add-gif {
+    margin: 5px;
+    background-color: rgb(29, 41, 81);
+    border: 5px rgb(41, 171, 135) double;
+    border-radius: 30px;
+    color: rgb(223, 221, 221);
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    text-align: center;
+    border: 3px rgb(41, 171, 135) solid;
+    border-top: 0px;
+    background-color: rgb(41, 171, 135)
+    }
+
+img {
+    border: 2px rgb(41, 171, 135) solid;
+    margin-left: 10px;
+    
+}
+
+.gif-input {
+    margin-left: 5px;
+    border: 3px rgb(29, 41, 81) solid;
+}
+
+@media screen and (min-width: 980 px) {
+   body {
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   } 
+}
+@media screen and (max-width: 980px) {
+    body {
+        background-size: 100%;
+        background-repeat: no-repeat ;
+        background-attachment: fixed;
+    }
+}
+@media screen and (max-width: 830px) {
+    body {
+        background-size: 100%;
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+        background-size: 100%;
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+}
